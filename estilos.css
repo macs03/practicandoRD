@@ -1,0 +1,128 @@
+*{margin: 0;}
+body{
+	background-color: white;
+	font-family: "Arial";
+}
+header{
+	width: 1000px;
+	height: auto;
+	margin: auto auto;
+	padding: 20px;
+}
+#logoinve{
+	height: auto;
+	/*width: 50%;*/
+}
+.logos {
+	width: 100%;
+	height: 100px;
+	margin: auto auto;
+}
+.menu{
+	width: 100%;
+	height: 50px;
+	margin: auto auto;
+}
+.menu ul{
+
+	list-style: none;
+	margin: 0;
+}
+.menu ul li {
+	float: left;
+	text-align: center;
+	text-decoration: none;
+	padding-top: 10px;
+	margin: 10px 5px;
+	width: 143px;
+	height: 25px;
+	background-color: skyblue;
+}
+.menu ul li a  {
+	text-decoration: none;
+	color: black;
+
+}
+.menu ul li :hover{
+	background-color: blue;
+	color: white;
+}
+.logounet{
+	float: left;
+	width: 20%;
+	text-align: center;
+}
+.titulo{
+	float: left;
+	width: 60%;
+	text-align: center;
+	color: blue;
+}
+.logoinves{
+	float: right;
+	width: 20%;
+	text-align: center;
+}
+.contenedor{
+	width: 1000px;
+	height: 250px;
+	margin: auto auto;
+	background-color: red;
+	border-radius: 5px;
+	padding: 5px;
+	box-shadow: 5px 5px 5px black;
+}
+.contenido ,.cont_log_twit{
+	float: left;	
+	width: 50%;
+}
+.contenido{
+	height: 250px;
+	background-color: grey;
+	overflow: scroll;
+}
+#primero{
+	text-align: justify;
+}
+#articulo{
+	float: left;
+}
+.cont_log_twit{
+	height: auto;
+	background-color: black;
+}
+.login{
+	width: auto;
+	height: auto;
+	margin: auto auto;
+	background-color: silver;
+}
+.twitter{
+	width: auto;
+	height: auto;
+	margin: auto auto;
+	background-color: blue;
+}
+footer{
+	background-color: green;
+	margin: 10px auto;
+	height: auto;
+	width: 1000px;
+	padding: 10px;
+	border-radius: 5px;
+	
+	box-shadow: 5px 5px 5px black;
+}
+@media screen and (max-width: 1000px){
+	header{
+		width: 100% !important ;
+	}
+	.contenedor{
+		width: 100% !important;
+		margin-top: 100px;
+	}
+	footer{
+		width: 100% !important;
+	}
+
+}
